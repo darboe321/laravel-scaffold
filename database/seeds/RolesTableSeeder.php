@@ -46,6 +46,8 @@ class RolesTableSeeder extends Seeder
                 'guard_name' => 'web',
                 'module_id' => $moduleId
             ]
+
+            
         ]);
 
         // Create default roles

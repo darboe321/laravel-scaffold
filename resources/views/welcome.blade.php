@@ -22,7 +22,7 @@
         <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
 
-        <title>Laravel Scaffold</title>
+        <title>Portal</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -93,22 +93,15 @@
                         <a href="{{ url('/home') }}">Home</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <!-- <a href="{{ route('register') }}">Register</a> -->
                     @endauth
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Scaffold
+                    Portal
                 </div>
-
-                <div class="links m-b-xl">
-                    <a href="https://laravel-scaffold-docs.modulr.io">Documentation</a>
-                    <a href="https://medium.com/modulr">Tutorials</a>
-                    <a href="https://github.com/modulr/laravel-scaffold">GitHub</a>
-                </div>
-
                 <div>
                     <p class="lead">Demo Credentials</p>
 

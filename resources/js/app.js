@@ -56,6 +56,12 @@ Vue.component('roles-index', require('./components/roles/Index.vue'));
 Vue.component('roles-create', require('./components/roles/Create.vue'));
 Vue.component('roles-edit', require('./components/roles/Edit.vue'));
 
+//Mns
+Vue.component('mns-index', require('./components/mns/Index.vue'));
+Vue.component('mns-create', require('./components/mns/Create.vue'));
+Vue.component('mns-edit', require('./components/mns/Edit.vue'));
+
+
 const app = new Vue({
     el: '#app'
 });
